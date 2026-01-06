@@ -26,10 +26,31 @@ Creates a compressed backup of a directory and stores it in a backup location wi
 - Exit status verification
 - Safe and repeatable execution
 
+### Example Output
+Backup successful: backup_2026-01-06_10-30-45.tar.gz
+
+
+---
+
+## 🔹 Deployment Automation Script
+
+### Description
+Automates application deployment by pulling the latest code from a Git repository or cloning it if it does not exist, then restarting the web server.
+
+### Features
+- Checks if application directory exists
+- Updates or clones Git repository
+- Restarts Apache web server
+- Verifies deployment success using exit codes
+
+### Example Output
+Updating application...
+Restarting service...
+Deployment successful!
+
 ### How to Run
 chmod +x filename.sh
 sudo ./filename.sh
-
 
 ---
 
