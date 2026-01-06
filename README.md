@@ -12,9 +12,10 @@ A Bash script that automates application deployment by cloning or updating a Git
 A Bash script that automatically organizes files in a directory based on their file extensions.
 
 ### How to Run
+```
 chmod +x filename.sh
 sudo ./filename.sh
-
+```
 ---
 
 ## 🔹 Backup Automation Script
@@ -71,6 +72,7 @@ Automatically sorts files in a specified directory into folders based on their f
 - File system operations
 
 ### Example
+```
 Before:
 Downloads/
 ├── image.png
@@ -82,7 +84,7 @@ Downloads/
 ├── png/image.png
 ├── pdf/report.pdf
 ├── txt/notes.txt
-
+```
 ---
 
 ##  Requirements
