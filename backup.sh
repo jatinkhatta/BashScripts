@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SOURCE_DIR="$HOME/Documents"
-BACKUP_DIR="$HOME/backups"
+SOURCE_DIR="$HOME/Documents" #write your source path
+BACKUP_DIR="$HOME/backups"   #write your destination path
 DATE=$(date +%F_%H-%M-%S)
 
 mkdir -p "$BACKUP_DIR"
