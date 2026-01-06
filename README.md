@@ -1,8 +1,4 @@
-##  Backup Automation & Deployment Automation
-
-This repository contains two practical Linux shell scripting projects commonly used in system administration and DevOps environments.
-
----
+#Bash Scripts
 
 ## 📌 Projects Included
 
@@ -12,8 +8,14 @@ A Bash script that creates compressed backups of a specified directory using tim
 ### 2. Deployment Automation Script
 A Bash script that automates application deployment by cloning or updating a Git repository and restarting the web service.
 
----
+### 3. File Organizer Script
+A Bash script that automatically organizes files in a directory based on their file extensions.
 
+### How to Run
+chmod +x filename.sh
+sudo ./filename.sh
+
+---
 
 ## 🔹 Backup Automation Script
 
@@ -48,9 +50,38 @@ Updating application...
 Restarting service...
 Deployment successful!
 
-### How to Run
-chmod +x filename.sh
-sudo ./filename.sh
+
+---
+
+## 🔹 File Organizer Script
+
+### Description
+Automatically sorts files in a specified directory into folders based on their file extensions.
+
+### Features
+- Organizes files by extension
+- Automatically creates directories
+- Handles files with spaces in names
+- Safe and repeatable execution
+
+### Concepts Used
+- Loops
+- File tests
+- Parameter expansion
+- File system operations
+
+### Example
+Before:
+Downloads/
+├── image.png
+├── report.pdf
+├── notes.txt
+
+After:
+Downloads/
+├── png/image.png
+├── pdf/report.pdf
+├── txt/notes.txt
 
 ---
 
@@ -66,4 +97,5 @@ sudo ./filename.sh
 - DevOps deployment pipelines
 - System administration tasks
 - CI/CD foundation scripts
+- Server file organization
 
