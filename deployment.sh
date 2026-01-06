@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_DIR="/var/www/myapp"
-REPO_URL="https://github.com/user.repo.git"
+APP_DIR="/var/www/myapp"  #write your app directory path
+REPO_URL="https://github.com/user.repo.git" #write you github repository path
 
 if [ -d "$App_Dir" ]; then
 	echo "Updating application....."
